@@ -25,7 +25,7 @@
 // 2
 function randomId(random) {
     let id = "";
-    let possible = "ABCDEFGHIJKLMNOPQRSTUabcdefghijklmnopqrstu0123456789";
+    let possible = "0123456789ABCDEFJHIJKLMNOPRSTUVabcdefjhijklmnoprstuv";
 
     for (let i = 0; i < random; i++) {
         id += possible.charAt(Math.floor(Math.random() * possible.length));
